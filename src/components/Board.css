@@ -1,0 +1,40 @@
+.board {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(45, 1fr);
+  grid-column-gap: 0ch;
+}
+.infotext > ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 28px 0 0;
+}
+
+.infotext div {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  position: relative;
+  top: 0.35em;
+  margin: 0 0.42em;
+}
+.filter {
+  margin-bottom: 20px;
+}
+
+.menu {
+  margin-right: auto;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.menu button {
+  margin-right: 10px;
+  max-height: 40px;
+  font-size: 18px;
+  font-size: 1.3vw;
+}
+.menu select {
+  min-height: 40px;
+}
