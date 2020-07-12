@@ -1,3 +1,20 @@
+# Pathfinder
+This application lets you visualize pathfinding algorithms, which are used to find the shortest path between any two given points. You can find the application here: https://pathfindingapp.herokuapp.com/
+
+## Algorithms Used
+
+#### Djkstra's Algorithm:
+ A very popular weighted algorithm for finding the shortest path from a starting node to a target node.The algorithm creates a tree of shortest paths from the starting vertex, the source, to all other points in the graph.
+#### Astar(A*) Algorithm:
+ It is an informed search algorithm, as it uses information about path cost and also uses heuristics to find the solution. It is agruably one of the best pathfinding algorithms and it is much faster than Djkstra.
+ 
+#### Breadth First Search (BFS) Algorithm:
+It is a great algorithm and guarantees shortest path. It starts at the source node, and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.
+
+#### Depth First Search (DFS) Algorithm:
+Not a good algorithm for path finding. The DFS algorithm is a recursive algorithm that uses the idea of backtracking. It involves exhaustive searches of all the nodes by going ahead, if possible, else by backtracking.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
